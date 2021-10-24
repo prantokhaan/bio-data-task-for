@@ -1,0 +1,80 @@
+/* Poppins Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: #f6f6f6;
+    font-family: 'Poppins', sans-serif;
+}
+.bio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.profile-image img{
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(136, 132, 132, 0.76);
+
+}
+.bio-section{
+    margin-left: 15%;
+}
+.bio-text{
+    /* border: 2px solid black; */
+    padding: 29px 10px;
+    width: 47%;
+    text-align: center;
+    border-radius: 10px;
+    color: #686262;
+    box-shadow: 0 0 15px rgba(136, 132, 132, 0.76);
+}
+.primary-button{
+    background-color: #f6f6f6;
+    border: 2px solid #f6f6f6;
+    box-shadow: 0 0 15px rgba(136, 132, 132, 0.76);
+}
+.primary-button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+}
+.primary-button:hover span{
+    background-color: rgb(248, 250, 245) !important;
+    color: black ;
+    border: 2px solid black;
+}
+.follower-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 15%;
+    margin-top: 40px;
+}
+.follower{
+    color: rgb(122, 116, 116);
+    width: 50%;
+    box-shadow: 0 0 15px rgba(136, 132, 132, 0.76);
+    padding-right: 15px;
+
+}
+.follower span{
+    color: rgb(127, 11, 236);
+    padding: 6px 10px;
+    margin: 0 15px 0 3px;
+    border-right: 2px solid gray;
+}
+.detailed-title{
+    color: rgb(122, 116, 116);
+}
+.detailed-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30%;
+}
+.detailed-item h5{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(100, 96, 96);
+    box-shadow: 0 0 15px rgba(136, 132, 132, 0.76);
+    width: 60%;
+    margin-bottom: 20px;
+}
